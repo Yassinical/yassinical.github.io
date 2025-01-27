@@ -1,0 +1,159 @@
+@import "common.css";
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+main
+{
+	margin: 0rem auto 2rem auto;
+	width: 70%;
+}
+.main__toptext
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 50%;
+}
+.main__toptext h1
+{
+	background-image: url("../img/flare.png");
+	background-position: 103% 45%;
+	background-repeat: no-repeat;
+	background-size: 20rem;
+	color: #171614;
+	font-family: "Birthstone", sans-serif;
+	font-size: 3rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 2rem;
+	text-shadow: 0 .5rem 1rem black;
+	width: 100%;
+}
+.main__toptext p
+{
+	color: #171614;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2rem;
+	width: 100%;
+}
+.main__products
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.products__product
+{
+	margin-bottom: 2rem;
+	max-width: 32%;
+	min-width: 27%;
+}
+.product__panel:hover
+{
+	margin-top: -6rem;
+}
+.products__product img
+{
+	box-shadow: 0 0 1rem #b9972f;
+	height: 380px;
+	max-height: 380px;
+	max-width: 450px;
+	object-fit: cover;
+	width: 100%;
+}
+.product__panel
+{
+	background-color: #ede7de;
+	box-shadow: 0 0 1rem #161513;
+	font-family: 'Luxurious Roman', cursive;
+	font-size: 1vw;
+	height: 12rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -5rem;
+	padding: 1rem;
+	position: relative;
+	transition: margin-top 1s;
+	width: 80%;
+}
+.product__panel h2
+{
+	font-family: 'Luxurious Roman', cursive;
+	font-size: 2.3vw;
+	margin: 0;
+	text-align: center;
+}
+.product__panel p
+{
+	margin-top: .7rem;
+}
+@media (min-width: 1650px)
+{
+	.wrapper__side
+	{
+		height: 11rem;
+	}
+	.product_panel h2
+	{
+		font-size: 2vw;
+	}
+	.product__panel
+	{
+		height: 20rem;
+	}
+}
+@media (max-width: 1616px)
+{
+	main
+	{
+		width: 80%;
+	}
+}
+@media (max-width: 1238px)
+{
+	.products__product
+	{
+		max-width: 45%;
+		min-width: 30%;
+	}
+	.product__panel
+	{
+		height: 10rem;
+	}
+	.wrapper__side
+	{
+		height: 11rem;
+	}
+}
+@media (max-width: 1031px)
+{
+	.main__toptext
+	{
+		width: 80%;
+	}
+	.products__product
+	{
+		height: 26rem;
+		max-width: 40%;
+		min-width: 35%;
+	}
+	.product__panel
+	{
+		height: 8rem;
+		margin-top: -8rem;
+	}
+}
+@media (max-width: 900px)
+{
+	.main__toptext
+	{
+		width: 80%;
+	}
+	.main__toptext h1
+	{
+		font-size: 2.7rem;
+	}
+	.products__product
+	{
+		min-width: 45%;
+	}
+}

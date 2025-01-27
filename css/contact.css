@@ -1,0 +1,149 @@
+@import "common.css";
+
+
+main{
+    margin: 0;
+    min-height: 39rem;
+    position: relative;
+}
+
+
+.left__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+form{
+    margin-left: 1rem;
+    width: 55%;
+}
+form p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form h2{
+    font-size: 2rem;
+    text-shadow: 0 0 1rem black;
+}
+form label{
+    padding-left: 1rem;
+    width: 100%;
+}
+form input, textarea{
+    background-color: #d7bb75;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 .7rem #eee2c4;
+    width: 100%;
+}
+form input[type="submit"]{
+    float: right;
+    width: 30%;
+}
+
+.Copeningsuren{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-shadow: 0 0 1rem black;
+    width: 35%;
+}
+.Copeningsuren ul{
+    list-style: none;
+    margin: 5.5rem auto 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 70%;
+}
+.Copeningsuren li{
+    margin-bottom: .5rem;
+}
+
+
+.Media{
+    width: 100%;
+}
+.Media ul{
+    font-size: 1.2rem;
+    list-style: none;
+    width: 100%;
+}
+.Media li {
+    margin-bottom: .7rem;
+}
+
+.Media ul li a{
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.linkfacebook a{
+    text-shadow: 0 0 1rem #1477b9;
+}
+.linktwitter a{
+     text-shadow: 0 0 1rem #1f87df;
+}
+.linkinstagram a{
+     text-shadow: 0 0 1rem #d4063f;
+}
+.linktiktok a{
+      text-shadow: 0 0 1rem black;
+}
+
+.main__left{
+    background: linear-gradient(82deg, #e2ce9c, #d5b76e 88.65% , rgba(0,0,0, 0) 89%, rgba(0,0,0, .3) 0%, rgba(0,0,0, 0) 89%);
+    font-family: 'Lato', sans-serif;
+    height: 90%;  
+    padding: 2rem;
+    position: relative;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+
+
+.main__right{
+    /*! position: absolute; */
+    float: right;
+    height: 38.9rem;
+    margin-right: .2rem;
+    mix-blend-mode:multiply;
+    width: 47%;
+    z-index: 0;
+}
+.main__right iframe{
+    height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 1000px){
+  .Copeningsuren{
+    font-size: 2.2vw;
+  }
+  .main__left{
+    background: linear-gradient(84deg, #e2ce9c, #d5b76e 88.65% , rgba(0,0,0, 0) 89%, rgba(0,0,0, .3) 0%, rgba(0,0,0, 0) 89%);
+  }
+}
+
+/*
+@media (min-width: 1617px){
+    main{
+    max-height: 75rem;
+    height: 42rem;
+  }
+  html{
+    height: 57rem;
+  }
+  .main__left{
+    height: 38rem;
+  }
+  .main__right{
+    margin-top: -42rem;
+    height: 41.7rem;
+  }
+  
+}
+*/

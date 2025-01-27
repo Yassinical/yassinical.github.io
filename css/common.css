@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body
+{
+	background-image: linear-gradient(#c6ac8f, #eae0d5, #b9972f);
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-attachment: fixed;
+	background-image: url(../img/header.jpg);
+	background-position-y: -16rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 15rem;
+	text-align: center;
+}
+header h1
+{
+	color: #d5b76e;
+	font-family: "Birthstone", sans-serif;
+	font-size: 500%;
+	margin: auto;
+	text-shadow: 0rem 0rem 1rem black;
+	width: 70%;
+}
+.wrapper__side
+{
+	mix-blend-mode: overlay;
+	width: 15%;
+}
+.header__wrapper
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.navigation__menu
+{
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	list-style: none;
+	margin-top: 0;
+	padding: 0rem;
+	width: 100%;
+}
+main
+{
+	margin: 2rem 0 2rem 0;
+}
+.wrapper__navigation
+{
+	height: 4rem;
+	width: 100%;
+}
+.menu__listitem a
+{
+	color: #d5b76e;
+	font-family: "Birthstone", sans-serif;
+	font-size: 3rem;
+	text-decoration: none;
+	text-shadow: 0 0 3px black;
+	text-shadow: 0rem 0rem .5rem black;
+	transition: text-shadow 1s, color 1s;
+}
+.menu__listitem a:hover
+{
+	color: #9e7e2e;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 0.3em rgb(255, 255, 255), 0 0 0.5em rgb(255, 255, 255);
+}
+.item--active a
+{
+	color: #b28e34;
+}
+footer
+{
+	background-color: #171614;
+	color: white;
+	height: 29.1rem;
+}
+.footer__titles
+{
+	border-bottom: 1rem #b9972f solid;
+	border-top: 1rem #b9972f solid;
+	display: flex;
+	justify-content: space-around;
+	z-index: 1;
+}
+footer p
+{
+	color: #d5b76e;
+	font-family: "Birthstone", sans-serif;
+	Font-size: 2.5rem;
+	margin: .2rem;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0rem 0rem 1rem #d5b76e;
+	width: 20%;
+}
+.footer__titles p:nth-child(even)
+{
+	width: 30%;
+}
+.footer__wrapper
+{
+	background-image: url(../img/footerbckground.png);
+	display: flex;
+	justify-content: space-around;
+}
+.openingsuren, .contacts
+{
+	background-color: #171614;
+	background-image: url(../img/footerframe.png);
+	background-position-y: -1rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow: 0rem 1.2rem 3rem black;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	height: 100;
+	width: 20%;
+}
+.openingsuren ul, .contacts ul
+{
+	list-style: none;
+	margin: 5.5rem auto 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 70%;
+}
+.openingsuren li, .contacts li
+{
+	margin-top: .8rem;
+	width: 100%;
+}
+.contacts a
+{
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+.map
+{
+	box-shadow: 0rem .6rem 3rem black;
+	height: 100%;
+	width: 30%;
+}
+.map iframe
+{
+	height: 100%;
+	width: 100%;
+}
+@media (min-width: 1617px)
+{
+	.map
+	{
+		height: 24rem;
+	}
+	.wrapper__side
+	{
+		height: 11rem;
+	}
+	footer
+	{
+		height: 29.75rem;
+	}
+}
+@media (max-width: 1616px)
+{
+	footer
+	{
+	}
+	.header__wrapper
+	{
+		width: 40%;
+	}
+	footer
+	{
+		height: 28.8rem;
+	}
+	.footer__wrapper
+	{
+		height: 23rem;
+	}
+	.openingsuren ul, .contacts ul
+	{
+		font-size: 1.2rem;
+		width: 60%;
+	}
+}
+@media (max-width: 1238px)
+{
+	footer
+	{
+		height: 25.7rem;
+	}
+	header
+	{
+		background-position-y: -20rem;
+	}
+	.footer__wrapper
+	{
+		height: 20rem;
+	}
+	.header__wrapper
+	{
+		width: 60%;
+	}
+	.openingsuren ul, .contacts ul
+	{
+		font-size: 1rem;
+		width: 40%;
+	}
+	.card__left p
+	{
+		font-size: 2.7vw;
+	}
+}
+@media (max-width: 1031px)
+{
+	footer
+	{
+		height: 20rem;
+	}
+	.header__wrapper
+	{
+		width: 75%;
+	}
+	.wrapper__side
+	{
+		height: 170px;
+	}
+	header
+	{
+		background-position-y: -10rem;
+	}
+	.footer__wrapper
+	{
+		height: 14rem;
+	}
+	.openingsuren, .contacts
+	{
+		background-size: 100%;
+		height: 100%;
+	}
+	.openingsuren ul, .contacts ul
+	{
+		font-size: .7rem;
+		margin-top: 3rem;
+		width: 40%;
+	}
+	.contacts ul
+	{
+		margin-top: 3.5rem;
+	}
+}
+@media (max-width: 900px)
+{
+	footer
+	{
+	}
+	.wrapper__side
+	{
+		height: 11rem;
+	}
+	.navigation__menu
+	{
+		display: inherit;
+		margin-top: -6rem;
+	}
+	.header__wrapper
+	{
+		margin-left: auto;
+	}
+	.navigation__menu li
+	{
+		margin: -2rem;
+	}
+	header H1
+	{
+		font-size: 8vw;
+		margin: 0;
+	}
+}
