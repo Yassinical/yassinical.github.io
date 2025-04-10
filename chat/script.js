@@ -12,4 +12,5 @@ document.getElementById("btnprofile").addEventListener("click", () => {
 
 document.querySelector(".chatbot").addEventListener("click", () => {
   document.querySelector("iframe").style.visibility = "visible";
+  document.querySelector(".chatbot").style.visibility = "hidden";
 });

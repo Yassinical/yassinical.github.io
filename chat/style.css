@@ -29,7 +29,6 @@
   width: 20%;
   height: 85px;
   border-radius: 530px;
-  visibility: hidden;
   box-shadow: 0 0 10px gray;
 }
 
@@ -41,8 +40,11 @@
 iframe{
   position: absolute;
   margin: 30% 20px;
+  height: 650px;
   width: 90%;
   visibility: hidden;
+  border-radius: 10px;
+  clip-path: inset(0 0 49px 0);
 }
 
 #btnprofile{
