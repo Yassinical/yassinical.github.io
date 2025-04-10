@@ -29,6 +29,7 @@
   width: 20%;
   height: 85px;
   border-radius: 530px;
+  visibility: hidden;
   box-shadow: 0 0 10px gray;
 }
 
