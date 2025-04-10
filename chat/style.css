@@ -8,6 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  margin-top: 7rem;
   box-shadow: 0 0 100px grey; 
   border-radius: 6px;
 }
