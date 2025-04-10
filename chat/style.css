@@ -29,7 +29,6 @@
   width: 20%;
   height: 85px;
   border-radius: 530px;
-  visibility: hidden;
   box-shadow: 0 0 10px gray;
 }
 
@@ -38,14 +37,18 @@
   width: 50%;
 }
 
-iframe{
+.iframewrapper{
   position: absolute;
   margin: 30% 20px;
-  height: 650px;
+  height: 600px;
   width: 90%;
   visibility: hidden;
   border-radius: 10px;
-  clip-path: inset(0 0 49px 0);
+  overflow: hidden;
+}
+
+iframe{
+  height: 645px;
 }
 
 #btnprofile{
