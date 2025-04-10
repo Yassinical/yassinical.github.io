@@ -1,0 +1,45 @@
+.phone{
+  width: 390px;
+  height: 844px;
+  border: black 3px solid;
+  background-image: url(img/profile.png);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper{
+  width: 100%;
+  height: 75%;
+}
+
+.chatbotwrapper{
+  height: 80px;
+  width: 75%;
+}
+.chatbot{
+  background-image: url(img/chatbot.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 85px;
+  box-shadow: 0 0 5px black;
+}
+
+#btnplanning{
+  height: 70px;
+  width: 50%;
+}
+
+iframe{
+  position: absolute;
+  margin: 30% 20px;
+  width: 90%;
+  visibility: hidden;
+}
+
+#btnprofile{
+  height: 70px;
+  width: 50%;
+}
