@@ -1,16 +1,15 @@
-const bgImages = [
-  'img/planning.png',
-  'img/profile.png'
-];
-
-function preloadBackgrounds() {
-  bgImages.forEach(imageUrl => {
+window.addEventListener('load', function() {
+  const imagesToPreload = [
+    'img/planning.png',
+    'img/profile.png'
+  ];
+  
+  imagesToPreload.forEach(url => {
     const img = new Image();
-    img.src = imageUrl;
+    img.src = url;
   });
-}
+});
 
-window.addEventListener('load', preloadBackgrounds);
 
 document.getElementById("btnplanning").addEventListener("click", () => {
   //document.querySelector(".phone").style.backgroundImage = "url('img/planning.png')";
