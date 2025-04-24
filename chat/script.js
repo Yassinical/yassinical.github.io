@@ -1,10 +1,11 @@
 window.addEventListener('load', function() {
-  const imagesToPreload = [
+  const bgImages = [
     'img/planning.png',
     'img/profile.png'
   ];
+
   
-  imagesToPreload.forEach(url => {
+  bgImages.forEach(url => {
     const img = new Image();
     img.src = url;
   });
